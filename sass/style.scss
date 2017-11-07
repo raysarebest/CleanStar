@@ -1,0 +1,18 @@
+@import "compass/reset";
+@import "compass/css3/flexbox";
+@import "compass/css3/transform";
+@import "utilities";
+
+html{
+    background: $background;
+}
+
+img{
+    display: block;
+    width: 50%;
+    max-width: 1283px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    @include translateY(-75%);
+}
